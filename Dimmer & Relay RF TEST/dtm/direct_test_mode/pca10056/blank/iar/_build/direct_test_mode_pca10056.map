@@ -1,0 +1,784 @@
+###############################################################################
+#
+# IAR ELF Linker V8.40.2.214/W32 for ARM                  24/May/2021  11:17:35
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\direct_test_mode_pca10056.out
+#    Map file     =
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\direct_test_mode_pca10056.map
+#    Command line =
+#        -f C:\Users\223024~1\AppData\Local\Temp\EWB867.tmp
+#        (C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\app_error.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\app_error_handler_iar.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\app_error_weak.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\app_fifo.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\app_uart_fifo.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\app_util_platform.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\ble_dtm.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\ble_dtm_hw_nrf52.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\boards.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\iar_startup_nrf52840.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\lds_bsp.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\lds_dtm_test.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\lds_main.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\lds_rf_test.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\lds_soft_timer.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\lds_timer.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\lds_uart.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\main.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\nrf_assert.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\nrf_atomic.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\nrf_balloc.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\nrf_drv_uart.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\nrf_fprintf.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\nrf_fprintf_format.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\nrf_log_frontend.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\nrf_log_str_formatter.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\nrf_memobj.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\nrf_ringbuf.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\nrf_strerror.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\nrfx_atomic.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\nrfx_prs.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\nrfx_systick.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\nrfx_timer.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\nrfx_uart.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\nrfx_uarte.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\retarget.o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\system_nrf52840.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull
+#        --no_out_extension -o
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\direct_test_mode_pca10056.out
+#        --map
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\direct_test_mode_pca10056.map
+#        --config
+#        C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\direct_test_mode_iar_nRF5x.icf
+#        --warnings_are_errors --entry __iar_program_start --inline --vfe
+#        --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = Basic
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+define block RO_END with size = 0, alignment = 8 { };
+"P1":  place in [from 0x0 to 0xf'ffff] { ro, block RO_END };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2003'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+keep { section .intvec };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x200
+  .intvec            ro code          0x0   0x200  iar_startup_nrf52840.o [1]
+                                  - 0x200   0x200
+
+"P1":                                      0x5356
+  .text              ro code        0x200  0x10c6  xprintffull.o [2]
+  .text              ro code       0x12c6    0x3a  zero_init3.o [4]
+  .text              ro code       0x1300    0x7c  xlocale_c.o [2]
+  .text              ro code       0x137c    0x16  strchr.o [4]
+  .text              ro code       0x1392    0x1e  xencoding_8859_1.o [2]
+  .text              ro code       0x13b0    0x40  xfail_s.o [2]
+  .text              ro code       0x13f0    0x14  strlen_small.o [4]
+  .text              ro code       0x1404    0x58  memchr.o [4]
+  .text              ro code       0x145c    0x18  ABImemcpy_small.o [4]
+  .text              ro code       0x1474    0x70  frexp.o [3]
+  .text              ro code       0x14e4    0x2e  DblCmpLe.o [3]
+  .rodata            const         0x1512     0x2  xlocale_c.o [2]
+  .text              ro code       0x1514    0x2e  DblCmpGe.o [3]
+  .rodata            const         0x1542     0x2  xlocale_c.o [2]
+  .text              ro code       0x1544   0x13a  ldexp.o [3]
+  .text              ro code       0x167e     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x1680    0x3a  DblToS32.o [3]
+  .text              ro code       0x16ba     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x16bc    0x22  S32ToDbl.o [3]
+  .text              ro code       0x16de     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x16e0    0xe2  DblSub.o [3]
+  .text              ro code       0x17c2     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x17c4   0x246  DblDiv.o [3]
+  .text              ro code       0x1a0a     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x1a0c    0x28  DblToU32.o [3]
+  .text              ro code       0x1a34    0x1a  U32ToDbl.o [3]
+  .text              ro code       0x1a4e     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x1a50   0x1a2  DblMul.o [3]
+  .text              ro code       0x1bf2     0xa  xmbcurmax.o [2]
+  .text              ro code       0x1bfc   0x230  I64DivMod.o [4]
+  .text              ro code       0x1e2c     0x6  abort.o [2]
+  .text              ro code       0x1e32     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x1e34   0x16a  DblAdd.o [3]
+  .text              ro code       0x1f9e     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x1fa0     0x2  I64DivZer.o [4]
+  .text              ro code       0x1fa2     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x1fa4     0xc  XXexit.o [4]
+  .text              ro code       0x1fb0   0xb80  lds_rf_test.o [1]
+  .text              ro code       0x2b30   0x188  lds_dtm_test.o [1]
+  .text              ro code       0x2cb8    0x28  printf.o [2]
+  .text              ro code       0x2ce0   0x13e  lds_bsp.o [1]
+  .text              ro code       0x2e1e     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x2e20    0xc0  lds_soft_timer.o [1]
+  .text              ro code       0x2ee0    0x1e  memcmp_small.o [4]
+  .text              ro code       0x2efe     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x2f00   0x78c  ble_dtm.o [1]
+  .text              ro code       0x368c    0xb8  ble_dtm_hw_nrf52.o [1]
+  .text              ro code       0x3744     0x6  ABImemclr4.o [4]
+  .text              ro code       0x374a     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x374c    0x12  ABImemset_small.o [4]
+  .text              ro code       0x375e     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x3760    0x32  ABImemset48.o [4]
+  .text              ro code       0x3792     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x3794   0x56c  nrfx_uart.o [1]
+  .text              ro code       0x3d00    0x40  nrfx_prs.o [1]
+  .text              ro code       0x3d40    0x24  app_util_platform.o [1]
+  .text              ro code       0x3d64   0x4d8  nrfx_uarte.o [1]
+  .text              ro code       0x423c   0x21c  app_uart_fifo.o [1]
+  .text              ro code       0x4458    0x90  app_fifo.o [1]
+  .text              ro code       0x44e8    0x8c  nrf_drv_uart.o [1]
+  .text              ro code       0x4574    0x1e  app_error.o [1]
+  .text              ro code       0x4592     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x4594    0x34  app_error_weak.o [1]
+  .text              ro code       0x45c8   0x198  nrfx_timer.o [1]
+  .text              ro code       0x4760   0x178  system_nrf52840.o [1]
+  .text              ro code       0x48d8   0x138  heap0.o [2]
+  .text              ro code       0x4a10    0x2c  xgetmemchunk.o [2]
+  .text              ro code       0x4a3c   0x118  lds_uart.o [1]
+  .rodata            const         0x4b54   0x100  ble_dtm.o [1]
+  .text              ro code       0x4c54    0xd8  xfspos.o [2]
+  .text              ro code       0x4d2c    0xac  fflush.o [2]
+  .text              ro code       0x4dd8     0xc  xfgpos.o [2]
+  .text              ro code       0x4de4    0x1c  retarget.o [1]
+  .rodata            const         0x4e00    0xcc  lds_rf_test.o [1]
+  .text              ro code       0x4ecc    0xb4  xfwprep.o [2]
+  .text              ro code       0x4f80    0x24  fseek.o [2]
+  .text              ro code       0x4fa4    0x9c  xfofind.o [2]
+  .text              ro code       0x5040     0x4  heaptramp0.o [2]
+  .text              ro code       0x5044    0x7e  fclose.o [2]
+  .text              ro code       0x50c2     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x50c4    0x7c  lds_timer.o [1]
+  .text              ro code       0x5140    0x1e  U64Shr.o [4]
+  .text              ro code       0x515e    0x78  lz77_init_single.o [4]
+  .text              ro code       0x51d6     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x51d8    0x74  lds_main.o [1]
+  .text              ro code       0x524c    0x54  fputc.o [2]
+  .rodata            const         0x52a0    0x50  lds_rf_test.o [1]
+  .text              ro code       0x52f0    0x3c  xcloseall.o [2]
+  .rodata            const         0x532c    0x38  lds_dtm_test.o [1]
+  .rodata            const         0x5364    0x30  lds_rf_test.o [1]
+  .text              ro code       0x5394    0x28  data_init.o [4]
+  .text              ro code       0x53bc    0x22  fpinit_M.o [3]
+  .iar.init_table    const         0x53e0    0x20  - Linker created -
+  .text              ro code       0x5400     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x5404    0x1e  cmain.o [4]
+  .text              ro code       0x5422     0xa  main.o [1]
+  .text              ro code       0x542c     0x4  exit.o [2]
+  .text              ro code       0x5430     0xe  cexit.o [4]
+  .text              ro code       0x543e    0x16  xprout.o [2]
+  .text              ro code       0x5454     0xc  putchar.o [2]
+  .text              ro code       0x5460    0x10  iar_startup_nrf52840.o [1]
+  .text              ro code       0x5470     0xc  cstartup_M.o [4]
+  .text              ro code       0x547c     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x547e     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x5480     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x5482     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x5484     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x5486     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x5488     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x548a     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x548c     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x548e     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x5490     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x5492     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x5494     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x5496     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x5498     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x549a     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x549c     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x549e     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x54a0     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x54a2     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x54a4     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x54a6     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x54a8     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x54aa     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x54ac     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x54ae     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x54b0     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x54b2     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x54b4     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x54b6     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x54b8     0x2  iar_startup_nrf52840.o [1]
+  .text              ro code       0x54ba     0x2  iar_startup_nrf52840.o [1]
+  .rodata            const         0x54bc     0x1  xlocale_c.o [2]
+  .text              ro code       0x54c0     0x0  cstart_closeall.o [4]
+  .rodata            const         0x54c0     0x0  zero_init3.o [4]
+  .rodata            const         0x54c0     0x0  lz77_init_single.o [4]
+  Initializer bytes  const         0x54c0    0x96  <for P2-1>
+                                 - 0x5556  0x5356
+
+"P2", part 1 of 3:                          0x1fc
+  P2-1                        0x2000'0000   0x1fc  <Init block>
+    .data            inited   0x2000'0000    0x40  app_uart_fifo.o [1]
+    .data            inited   0x2000'0040    0x20  ble_dtm.o [1]
+    .data            inited   0x2000'0060    0x20  lds_rf_test.o [1]
+    .data            inited   0x2000'0080     0x4  system_nrf52840.o [1]
+    .data            inited   0x2000'0084    0x38  xlocale_c.o [2]
+    .data            inited   0x2000'00bc    0x48  xlocale_c.o [2]
+    .data            inited   0x2000'0104    0x48  xfiles.o [2]
+    .data            inited   0x2000'014c    0x48  xfiles.o [2]
+    .data            inited   0x2000'0194    0x48  xfiles.o [2]
+    .data            inited   0x2000'01dc    0x20  xfiles.o [2]
+                            - 0x2000'01fc   0x1fc
+
+"P2", part 2 of 3:                          0x7d8
+  .bss               zero     0x2000'01fc   0x488  lds_uart.o [1]
+  .bss               zero     0x2000'0684   0x104  ble_dtm.o [1]
+  .bss               zero     0x2000'0788    0x84  lds_uart.o [1]
+  .bss               zero     0x2000'080c    0x78  lds_soft_timer.o [1]
+  .bss               zero     0x2000'0884    0x50  xfiles.o [2]
+  .bss               zero     0x2000'08d4    0x50  xfiles.o [2]
+  .bss               zero     0x2000'0924    0x2c  nrfx_uart.o [1]
+  .bss               zero     0x2000'0950    0x24  nrfx_uarte.o [1]
+  .bss               zero     0x2000'0974    0x14  nrf_drv_uart.o [1]
+  .bss               zero     0x2000'0988    0x10  lds_main.o [1]
+  .bss               zero     0x2000'0998     0xc  lds_rf_test.o [1]
+  .bss               zero     0x2000'09a4     0xc  nrfx_timer.o [1]
+  .bss               zero     0x2000'09b0     0x8  nrfx_prs.o [1]
+  .bss               zero     0x2000'09b8     0x8  heap0.o [2]
+  .bss               zero     0x2000'09c0     0x4  app_util_platform.o [1]
+  .bss               zero     0x2000'09c4     0x4  lds_dtm_test.o [1]
+  .bss               zero     0x2000'09c8     0x4  lds_timer.o [1]
+  .bss               zero     0x2000'09cc     0x4  xfail_s.o [2]
+  .bss               zero     0x2000'09d0     0x4  xgetmemchunk.o [2]
+                            - 0x2000'09d4   0x7d8
+
+"P2", part 3 of 3:                         0x4000
+  CSTACK                      0x2000'09d8  0x2000  <Block>
+    CSTACK           uninit   0x2000'09d8  0x2000  <Block tail>
+  HEAP                        0x2000'29d8  0x2000  <Block>
+    HEAP             uninit   0x2000'29d8  0x2000  <Block tail>
+                            - 0x2000'49d8  0x4000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+       0x5556     0xf'ffff  0xf'aaaa
+  0x2000'09d4  0x2000'09d7       0x4
+  0x2000'49d8  0x2003'ffff  0x3'b628
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x7d8:
+          0x2000'01fc  0x7d8
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x96 (29% of destination):
+               0x54c0   0x96
+    1 destination range, total size 0x1fc:
+          0x2000'0000  0x1fc
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build: [1]
+    app_error.o                  30
+    app_error_weak.o             52
+    app_fifo.o                  144
+    app_uart_fifo.o             540       18       64
+    app_util_platform.o          36                 4
+    ble_dtm.o                 1'932      266      292
+    ble_dtm_hw_nrf52.o          184
+    iar_startup_nrf52840.o      628
+    lds_bsp.o                   318
+    lds_dtm_test.o              392       56        4
+    lds_main.o                  116                16
+    lds_rf_test.o             2'944      341       44
+    lds_soft_timer.o            192               120
+    lds_timer.o                 124                 4
+    lds_uart.o                  280             1'292
+    main.o                       10
+    nrf_drv_uart.o              140                20
+    nrfx_prs.o                   64                 8
+    nrfx_timer.o                408                12
+    nrfx_uart.o               1'388                44
+    nrfx_uarte.o              1'240                36
+    retarget.o                   28
+    system_nrf52840.o           376        1        4
+    -------------------------------------------------
+    Total:                   11'566      682    1'964
+
+dl7M_tlf.a: [2]
+    abort.o                       6
+    exit.o                        4
+    fclose.o                    126
+    fflush.o                    172
+    fputc.o                      84
+    fseek.o                      36
+    heap0.o                     312                 8
+    heaptramp0.o                  4
+    printf.o                     40
+    putchar.o                    12
+    xcloseall.o                  60
+    xencoding_8859_1.o           30
+    xfail_s.o                    64                 4
+    xfgpos.o                     12
+    xfiles.o                              74      408
+    xfofind.o                   156
+    xfspos.o                    216
+    xfwprep.o                   180
+    xgetmemchunk.o               44                 4
+    xlocale_c.o                 124       43      128
+    xmbcurmax.o                  10
+    xprintffull.o             4'294
+    xprout.o                     22
+    -------------------------------------------------
+    Total:                    6'008      117      552
+
+m7M_tls.a: [3]
+    DblAdd.o                    362
+    DblCmpGe.o                   46
+    DblCmpLe.o                   46
+    DblDiv.o                    582
+    DblMul.o                    418
+    DblSub.o                    226
+    DblToS32.o                   58
+    DblToU32.o                   40
+    S32ToDbl.o                   34
+    U32ToDbl.o                   26
+    fpinit_M.o                   34
+    frexp.o                     112
+    ldexp.o                     314
+    -------------------------------------------------
+    Total:                    2'298
+
+rt7M_tl.a: [4]
+    ABImemclr4.o                  6
+    ABImemcpy_small.o            24
+    ABImemset48.o                50
+    ABImemset_small.o            18
+    I64DivMod.o                 560
+    I64DivZer.o                   2
+    U64Shr.o                     30
+    XXexit.o                     12
+    cexit.o                      14
+    cmain.o                      30
+    cstart_closeall.o
+    cstartup_M.o                 12
+    data_init.o                  40
+    lz77_init_single.o          120
+    memchr.o                     88
+    memcmp_small.o               30
+    strchr.o                     22
+    strlen_small.o               20
+    zero_init3.o                 58
+    -------------------------------------------------
+    Total:                    1'136
+
+    Gaps                          5        2
+    Linker created                        32   16'384
+-----------------------------------------------------
+    Grand Total:             21'013      833   18'900
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base        0x53e0          --   Gb  - Linker created -
+.iar.init_table$$Limit       0x5400          --   Gb  - Linker created -
+?main                        0x5405         Code  Gb  cmain.o [4]
+Aldata                  0x2000'09b8    0x8  Data  Lc  heap0.o [2]
+CSTACK$$Base            0x2000'09d8          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'29d8          --   Gb  - Linker created -
+CacheMore                    0x1305   0x28  Code  Lc  xlocale_c.o [2]
+HEAP$$Base              0x2000'29d8          --   Gb  - Linker created -
+HEAP$$Limit             0x2000'49d8          --   Gb  - Linker created -
+LdsBspEvenNumberPinHigh
+                             0x2d93   0x28  Code  Gb  lds_bsp.o [1]
+LdsBspEvenNumberPinLow       0x2d6b   0x28  Code  Gb  lds_bsp.o [1]
+LdsBspGpioInit               0x2ddb   0x44  Code  Gb  lds_bsp.o [1]
+LdsBspOddNumberPinHigh       0x2dcb   0x10  Code  Gb  lds_bsp.o [1]
+LdsBspOddNumberPinLow        0x2dbb   0x10  Code  Gb  lds_bsp.o [1]
+LdsDtmCommandSet             0x2bd9   0x2a  Code  Gb  lds_dtm_test.o [1]
+LdsDtmCommandSet::last_command_code
+                        0x2000'09c4    0x4  Data  Lc  lds_dtm_test.o [1]
+LdsDtmTestEnd                0x2c17    0xa  Code  Gb  lds_dtm_test.o [1]
+LdsDtmTestInit               0x2b31    0xe  Code  Gb  lds_dtm_test.o [1]
+LdsDtmTestReset              0x2c0d    0x6  Code  Gb  lds_dtm_test.o [1]
+LdsDtmTestTxRxSetPacket
+                             0x2c4b   0x3a  Code  Gb  lds_dtm_test.o [1]
+LdsDtmTestTxSetPhy           0x2c39   0x12  Code  Gb  lds_dtm_test.o [1]
+LdsDtmTestTxSetPower         0x2c21   0x18  Code  Gb  lds_dtm_test.o [1]
+LdsDtmTestWait               0x2b3f    0x4  Code  Gb  lds_dtm_test.o [1]
+LdsDtmTxPowerdBmGet          0x2b43   0x96  Code  Gb  lds_dtm_test.o [1]
+LdsRfTask                    0x5241    0xc  Code  Gb  lds_main.o [1]
+LdsRfTestHandle              0x2681   0x1e  Code  Gb  lds_rf_test.o [1]
+LdsRfTestModeEnter           0x269f   0x26  Code  Gb  lds_rf_test.o [1]
+LdsRfTestUartRxHandle        0x21f3   0x3e  Code  Gb  lds_rf_test.o [1]
+LdsSoftTimerCreate           0x2e8b   0x30  Code  Gb  lds_soft_timer.o [1]
+LdsSoftTimerStart            0x2ebb   0x22  Code  Gb  lds_soft_timer.o [1]
+LdsSoftTimerhandle           0x2e21   0x6a  Code  Gb  lds_soft_timer.o [1]
+LdsSoftTimerhandle::bac_clock_time_1ms
+                        0x2000'0880    0x4  Data  Lc  lds_soft_timer.o [1]
+LdsTimer4CountMsGet          0x511f    0x6  Code  Gb  lds_timer.o [1]
+LdsTimer4Init                0x50d5   0x4a  Code  Gb  lds_timer.o [1]
+LdsUartInit                  0x4ad5   0x52  Code  Gb  lds_uart.o [1]
+LdsUartInit{2}{3}::rx_buf
+                        0x2000'0204   0x80  Data  Lc  lds_uart.o [1]
+LdsUartInit{2}{3}::tx_buf
+                        0x2000'0284  0x400  Data  Lc  lds_uart.o [1]
+NVIC_ClearPendingIRQ         0x2f01   0x14  Code  Lc  ble_dtm.o [1]
+RF_TEST_CMD                  0x2b28    0x8  Data  Lc  lds_rf_test.o [1]
+Region$$Table$$Base          0x53e0          --   Gb  - Linker created -
+Region$$Table$$Limit         0x5400          --   Gb  - Linker created -
+SystemCoreClock         0x2000'0080    0x4  Data  Gb  system_nrf52840.o [1]
+SystemInit                   0x4761  0x122  Code  Gb  system_nrf52840.o [1]
+TIMER4_IRQHandler            0x470b   0x3c  Code  Gb  nrfx_timer.o [1]
+UARTE0_UART0_IRQHandler
+                             0x3d01    0x6  Code  Gb  nrfx_prs.o [1]
+_Close_all                   0x52f1   0x3c  Code  Gb  xcloseall.o [2]
+_Encoding_8859_1_Mbrlen
+                             0x13a5    0x2  Code  Gb  xencoding_8859_1.o [2]
+_Encoding_8859_1_Wctomb
+                             0x1393   0x12  Code  Gb  xencoding_8859_1.o [2]
+_Files                  0x2000'01dc   0x20  Data  Gb  xfiles.o [2]
+_Fofree                      0x4fa5   0x96  Code  Gb  xfofind.o [2]
+_Fspos                       0x4c55   0xd8  Code  Gb  xfspos.o [2]
+_Fwprep                      0x4ecd   0xb4  Code  Gb  xfwprep.o [2]
+_LitobFull                   0x1113  0x10a  Code  Lc  xprintffull.o [2]
+_Locale_lconv           0x2000'0084   0x38  Data  Lc  xlocale_c.o [2]
+_Nnl                         0x4dd9    0xc  Code  Gb  xfgpos.o [2]
+_PrintfFull                   0x201  0xcc4  Code  Gb  xprintffull.o [2]
+_Prout                       0x543f   0x16  Code  Gb  xprout.o [2]
+_PutcharsFull                0x1285   0x2e  Code  Lc  xprintffull.o [2]
+_PutstrFull                  0x1053   0xc0  Code  Lc  xprintffull.o [2]
+_PuttxtFull                   0xf47  0x10c  Code  Lc  xprintffull.o [2]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2003'ffff         Data  Gb  <internal module>
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x2000'0000         Data  Gb  <internal module>
+__Vectors                       0x0          --   Gb  iar_startup_nrf52840.o [1]
+__Vectors_End                 0x200         Data  Gb  iar_startup_nrf52840.o [1]
+__Vectors_Size {Abs}          0x200          --   Gb  iar_startup_nrf52840.o [1]
+__aeabi_cdcmple              0x14e5         Code  Gb  DblCmpLe.o [3]
+__aeabi_cdrcmple             0x1515         Code  Gb  DblCmpGe.o [3]
+__aeabi_d2iz                 0x1681         Code  Gb  DblToS32.o [3]
+__aeabi_d2uiz                0x1a0d         Code  Gb  DblToU32.o [3]
+__aeabi_ddiv                 0x17c5         Code  Gb  DblDiv.o [3]
+__aeabi_dmul                 0x1a51         Code  Gb  DblMul.o [3]
+__aeabi_dsub                 0x16e1         Code  Gb  DblSub.o [3]
+__aeabi_i2d                  0x16bd         Code  Gb  S32ToDbl.o [3]
+__aeabi_ldiv0                0x1fa1         Code  Gb  I64DivZer.o [4]
+__aeabi_llsr                 0x5141         Code  Gb  U64Shr.o [4]
+__aeabi_memclr4              0x3745         Code  Gb  ABImemclr4.o [4]
+__aeabi_ui2d                 0x1a35         Code  Gb  U32ToDbl.o [3]
+__aeabi_uldivmod             0x1bfd         Code  Gb  I64DivMod.o [4]
+__basic_free                 0x4983   0x16  Code  Gb  heap0.o [2]
+__basic_free_intern          0x4999   0x74  Code  Lc  heap0.o [2]
+__basic_malloc               0x48d9   0x18  Code  Gb  heap0.o [2]
+__basic_malloc_intern        0x48f1   0x92  Code  Lc  heap0.o [2]
+__cexit_closeall             0x5433         Code  Gb  cexit.o [4]
+__cmain                      0x5405         Code  Gb  cmain.o [4]
+__cstart_closeall            0x54c0         Data  Gb  cstart_closeall.o [4]
+__data_GetMemChunk           0x4a11   0x2c  Code  Gb  xgetmemchunk.o [2]
+__data_GetMemChunk::start
+                        0x2000'09d0    0x4  Data  Lc  xgetmemchunk.o [2]
+__exit                       0x1fa5         Code  Gb  XXexit.o [4]
+__iar_Fail_s                 0x13b1   0x1c  Code  Gb  xfail_s.o [2]
+__iar_Mbcurmax               0x1bf3    0xa  Code  Gb  xmbcurmax.o [2]
+__iar_Memchr                 0x1405         Code  Gb  memchr.o [4]
+__iar_Memset4_word           0x3761         Code  Gb  ABImemset48.o [4]
+__iar_Memset8_word           0x3761         Code  Gb  ABImemset48.o [4]
+__iar_Stderr            0x2000'0194   0x48  Data  Gb  xfiles.o [2]
+__iar_Stdin             0x2000'0104   0x48  Data  Gb  xfiles.o [2]
+__iar_Stdout            0x2000'014c   0x48  Data  Gb  xfiles.o [2]
+__iar_Strchr                 0x137d         Code  Gb  strchr.o [4]
+__iar_dadd                   0x16f1         Code  Gb  DblSub.o [3]
+__iar_data_init3             0x5395   0x28  Code  Gb  data_init.o [4]
+__iar_dsub                   0x1e35         Code  Gb  DblAdd.o [3]
+__iar_dsubStart              0x1e47         Code  Gb  DblAdd.o [3]
+__iar_frexp                  0x1481         Code  Gb  frexp.o [3]
+__iar_frexpl                 0x1481         Code  Gb  frexp.o [3]
+__iar_globLocale        0x2000'00bc   0x48  Data  Lc  xlocale_c.o [2]
+__iar_global_Locale          0x1301    0x4  Code  Gb  xlocale_c.o [2]
+__iar_init_vfp               0x53bd         Code  Gb  fpinit_M.o [3]
+__iar_ldexp64                0x1545         Code  Gb  ldexp.o [3]
+__iar_lz77_init_single3
+                             0x515f   0x78  Code  Gb  lz77_init_single.o [4]
+__iar_program_start          0x5471         Code  Gb  cstartup_M.o [4]
+__iar_scalbln64              0x1545         Code  Gb  ldexp.o [3]
+__iar_scalbn64               0x1545         Code  Gb  ldexp.o [3]
+__iar_small_Memcpy           0x1461         Code  Gb  ABImemcpy_small.o [4]
+__iar_small_Memset           0x374d         Code  Gb  ABImemset_small.o [4]
+__iar_small_Memset_word
+                             0x374d         Code  Gb  ABImemset_small.o [4]
+__iar_small_memcmp           0x2ee1         Code  Gb  memcmp_small.o [4]
+__iar_small_memcpy           0x145d         Code  Gb  ABImemcpy_small.o [4]
+__iar_small_memcpy4          0x145d         Code  Gb  ABImemcpy_small.o [4]
+__iar_small_memcpy8          0x145d         Code  Gb  ABImemcpy_small.o [4]
+__iar_small_memset           0x374d         Code  Gb  ABImemset_small.o [4]
+__iar_small_strlen           0x13f1         Code  Gb  strlen_small.o [4]
+__iar_softfp___iar_frexp64
+                             0x1475         Code  Gb  frexp.o [3]
+__iar_softfp_frexp           0x1475         Code  Gb  frexp.o [3]
+__iar_softfp_frexpl          0x1475         Code  Gb  frexp.o [3]
+__iar_zero_init3             0x12c7   0x3a  Code  Gb  zero_init3.o [4]
+__vector_table                  0x0         Data  Gb  iar_startup_nrf52840.o [1]
+__write                      0x4de5   0x1c  Code  Gb  retarget.o [1]
+_call_main                   0x5411         Code  Gb  cmain.o [4]
+_exit                        0x5431         Code  Gb  cexit.o [4]
+_gLocale_mblen               0x1369    0x4  Code  Gb  xlocale_c.o [2]
+_gLocale_mblenInt            0x132d   0x2c  Code  Gb  xlocale_c.o [2]
+_gLocale_wctomb              0x136d    0x4  Code  Gb  xlocale_c.o [2]
+_gLocale_wctombInt           0x1365    0x4  Code  Gb  xlocale_c.o [2]
+_main                        0x541f         Code  Gb  cmain.o [4]
+abort                        0x1e2d    0x6  Code  Gb  abort.o [2]
+anomaly_172_rssi_check       0x2ff7   0x20  Code  Gb  ble_dtm.o [1]
+anomaly_172_wa_enabled  0x2000'0044    0x1  Data  Lc  ble_dtm.o [1]
+app_error_fault_handler
+                             0x4595   0x34  Code  Wk  app_error_weak.o [1]
+app_error_handler_bare       0x4575   0x1e  Code  Gb  app_error.o [1]
+app_fifo_get                 0x44d3   0x16  Code  Gb  app_fifo.o [1]
+app_fifo_init                0x4493   0x26  Code  Gb  app_fifo.o [1]
+app_fifo_put                 0x44b9   0x1a  Code  Gb  app_fifo.o [1]
+app_uart_get                 0x43af   0x26  Code  Gb  app_uart_fifo.o [1]
+app_uart_init                0x431d   0x92  Code  Gb  app_uart_fifo.o [1]
+app_uart_inst           0x2000'0004   0x14  Data  Lc  app_uart_fifo.o [1]
+app_uart_put                 0x43df   0x4e  Code  Gb  app_uart_fifo.o [1]
+app_util_critical_region_enter
+                             0x3d51    0x2  Code  Gb  app_util_platform.o [1]
+app_util_critical_region_exit
+                             0x3d5f    0x2  Code  Gb  app_util_platform.o [1]
+app_util_enable_irq          0x3d41    0xe  Code  Gb  app_util_platform.o [1]
+diff_tick               0x2000'0990    0x4  Data  Gb  lds_main.o [1]
+dtm_cmd                      0x3339  0x258  Code  Gb  ble_dtm.o [1]
+dtm_constant_carrier         0x368d    0xa  Code  Gb  ble_dtm_hw_nrf52.o [1]
+dtm_event_get                0x359f   0x10  Code  Gb  ble_dtm.o [1]
+dtm_hw_set_timer             0x36e9   0x42  Code  Gb  ble_dtm_hw_nrf52.o [1]
+dtm_init                     0x30b1   0xb2  Code  Gb  ble_dtm.o [1]
+dtm_radio_validate           0x3697   0x52  Code  Gb  ble_dtm_hw_nrf52.o [1]
+dtm_set_timer                0x35db   0x1a  Code  Gb  ble_dtm.o [1]
+dtm_set_txpower              0x35af   0x2c  Code  Gb  ble_dtm.o [1]
+dtm_test_done                0x3087   0x2a  Code  Lc  ble_dtm.o [1]
+dtm_txpowerRegisterValue
+                             0x2ca8   0x10  Data  Gb  lds_dtm_test.o [1]
+dtm_txpowerTable             0x532c   0x38  Data  Gb  lds_dtm_test.o [1]
+dtm_wait                     0x3163  0x1d4  Code  Gb  ble_dtm.o [1]
+ebuf                    0x2000'0884   0x50  Data  Lc  xfiles.o [2]
+exit                         0x542d    0x4  Code  Gb  exit.o [2]
+fclose                       0x5045   0x7e  Code  Gb  fclose.o [2]
+fflush                       0x4da1   0x34  Code  Gb  fflush.o [2]
+fflushOne                    0x4d2d   0x74  Code  Lc  fflush.o [2]
+fifo_get                     0x447f   0x14  Code  Lc  app_fifo.o [1]
+fifo_length                  0x4279    0xa  Code  Lc  app_uart_fifo.o [1]
+fifo_peek                    0x446d   0x12  Code  Lc  app_fifo.o [1]
+fifo_put                     0x4459   0x14  Code  Lc  app_fifo.o [1]
+fputc                        0x524d   0x54  Code  Gb  fputc.o [2]
+free                         0x5041    0x4  Code  Gb  heaptramp0.o [2]
+fseek                        0x4f81   0x24  Code  Gb  fseek.o [2]
+g_rfcmd                 0x2000'0060   0x10  Data  Lc  lds_rf_test.o [1]
+ldexp                        0x1545         Code  Gb  ldexp.o [3]
+ldexpl                       0x1545         Code  Gb  ldexp.o [3]
+ldsInformationPrint          0x2169   0x8a  Code  Lc  lds_rf_test.o [1]
+ldsLogUartRxTimeout          0x4aaf   0x26  Code  Lc  lds_uart.o [1]
+ldsMainInit                  0x51d9   0x1a  Code  Gb  lds_main.o [1]
+ldsMainLoopHandle            0x51f3   0x44  Code  Gb  lds_main.o [1]
+ldsRfGetMacAddr              0x1fd3   0x26  Code  Gb  lds_rf_test.o [1]
+ldsRfTestParamInit           0x1fb1   0x22  Code  Gb  lds_rf_test.o [1]
+ldsRfTestTimeout             0x1ff9   0x14  Code  Lc  lds_rf_test.o [1]
+ldsUartEventHandle           0x4a3d   0x72  Code  Lc  lds_uart.o [1]
+lds_DeviceInfoPrint          0x200d   0x96  Code  Lc  lds_rf_test.o [1]
+lds_RfInfoPrint              0x20a3   0xc6  Code  Lc  lds_rf_test.o [1]
+lds_UartRfModeCmd            0x264f   0x32  Code  Gb  lds_rf_test.o [1]
+lds_UartRfTestCmdHandle
+                             0x2239  0x416  Code  Gb  lds_rf_test.o [1]
+ldstimer4eventHandler        0x50c5   0x10  Code  Gb  lds_timer.o [1]
+localeconv                   0x1371    0x4  Code  Gb  xlocale_c.o [2]
+m_cb                    0x2000'09a4    0xc  Data  Lc  nrfx_timer.o [1]
+m_cb                    0x2000'0924   0x2c  Data  Lc  nrfx_uart.o [1]
+m_cb                    0x2000'0950   0x24  Data  Lc  nrfx_uarte.o [1]
+m_contexts              0x2000'0980    0x8  Data  Lc  nrf_drv_uart.o [1]
+m_current_time          0x2000'0054    0x4  Data  Lc  ble_dtm.o [1]
+m_event                 0x2000'0048    0x2  Data  Lc  ble_dtm.o [1]
+m_event_handler         0x2000'0028    0x4  Data  Lc  app_uart_fifo.o [1]
+m_handlers              0x2000'0978    0x8  Data  Lc  nrf_drv_uart.o [1]
+m_in_critical_region    0x2000'09c0    0x4  Data  Lc  app_util_platform.o [1]
+m_new_event             0x2000'0041    0x1  Data  Lc  ble_dtm.o [1]
+m_packetHeaderPlen      0x2000'0042    0x1  Data  Lc  ble_dtm.o [1]
+m_packet_length         0x2000'004c    0x4  Data  Lc  ble_dtm.o [1]
+m_pdu                   0x2000'0684  0x104  Data  Lc  ble_dtm.o [1]
+m_phys_ch               0x2000'0050    0x4  Data  Lc  ble_dtm.o [1]
+m_prbs_content               0x4b54  0x100  Data  Lc  ble_dtm.o [1]
+m_prs_box_4             0x2000'09b0    0x8  Data  Lc  nrfx_prs.o [1]
+m_radio_mode            0x2000'0043    0x1  Data  Lc  ble_dtm.o [1]
+m_rx_fifo               0x2000'0018   0x10  Data  Lc  app_uart_fifo.o [1]
+m_rx_ovf                0x2000'0000    0x1  Data  Lc  app_uart_fifo.o [1]
+m_rx_pkt_count          0x2000'0046    0x2  Data  Lc  ble_dtm.o [1]
+m_state                 0x2000'0040    0x1  Data  Lc  ble_dtm.o [1]
+m_strict_mode           0x2000'0045    0x1  Data  Lc  ble_dtm.o [1]
+m_timer4                     0x5130    0x8  Data  Gb  lds_timer.o [1]
+m_timer_irq             0x2000'004a    0x1  Data  Lc  ble_dtm.o [1]
+m_tx_fifo               0x2000'0030   0x10  Data  Lc  app_uart_fifo.o [1]
+m_tx_power              0x2000'0058    0x4  Data  Lc  ble_dtm.o [1]
+main                         0x5423    0xa  Code  Gb  main.o [1]
+memchr                       0x1405         Code  Gb  memchr.o [4]
+mp_timer                0x2000'005c    0x4  Data  Lc  ble_dtm.o [1]
+nrf_drv_uart_init            0x4515   0x52  Code  Gb  nrf_drv_uart.o [1]
+nrf_drv_uart_rx              0x425b   0x1e  Code  Lc  app_uart_fifo.o [1]
+nrf_drv_uart_tx              0x423d   0x1e  Code  Lc  app_uart_fifo.o [1]
+nrf_drv_uart_use_easy_dma
+                        0x2000'0974    0x2  Data  Gb  nrf_drv_uart.o [1]
+nrf_gpio_cfg                 0x2cfd   0x34  Code  Lc  lds_bsp.o [1]
+nrf_gpio_cfg                 0x37eb   0x34  Code  Lc  nrfx_uart.o [1]
+nrf_gpio_cfg                 0x3da1   0x34  Code  Lc  nrfx_uarte.o [1]
+nrf_gpio_cfg_input           0x2d31   0x12  Code  Lc  lds_bsp.o [1]
+nrf_gpio_cfg_input           0x3829    0xc  Code  Lc  nrfx_uart.o [1]
+nrf_gpio_cfg_input           0x3ddf    0xc  Code  Lc  nrfx_uarte.o [1]
+nrf_gpio_cfg_output          0x381f    0xa  Code  Lc  nrfx_uart.o [1]
+nrf_gpio_cfg_output          0x3dd5    0xa  Code  Lc  nrfx_uarte.o [1]
+nrf_gpio_pin_clear           0x2d57   0x14  Code  Lc  lds_bsp.o [1]
+nrf_gpio_pin_port_decode
+                             0x2ce1   0x16  Code  Lc  lds_bsp.o [1]
+nrf_gpio_pin_port_decode
+                             0x37d3   0x18  Code  Lc  nrfx_uart.o [1]
+nrf_gpio_pin_port_decode
+                             0x3d89   0x18  Code  Lc  nrfx_uarte.o [1]
+nrf_gpio_pin_set             0x2d43   0x14  Code  Lc  lds_bsp.o [1]
+nrf_gpio_pin_set             0x3847   0x14  Code  Lc  nrfx_uart.o [1]
+nrf_gpio_pin_set             0x3dfd   0x14  Code  Lc  nrfx_uarte.o [1]
+nrf_timer_event_clear        0x45c9   0x10  Code  Lc  nrfx_timer.o [1]
+nrf_uart_event_check         0x37a5    0x4  Code  Lc  nrfx_uart.o [1]
+nrf_uart_event_clear         0x3795   0x10  Code  Lc  nrfx_uart.o [1]
+nrf_uart_hwfc_pins_set       0x37c1    0xa  Code  Lc  nrfx_uart.o [1]
+nrf_uart_int_enable_check
+                             0x37a9    0xe  Code  Lc  nrfx_uart.o [1]
+nrf_uart_rxd_get             0x37cb    0x8  Code  Lc  nrfx_uart.o [1]
+nrf_uart_txrx_pins_set       0x37b7    0xa  Code  Lc  nrfx_uart.o [1]
+nrf_uarte_event_check        0x3d75    0x4  Code  Lc  nrfx_uarte.o [1]
+nrf_uarte_event_clear        0x3d65   0x10  Code  Lc  nrfx_uarte.o [1]
+nrf_uarte_hwfc_pins_set
+                             0x3d7f    0x4  Code  Lc  nrfx_uarte.o [1]
+nrf_uarte_txrx_pins_set
+                             0x3d79    0x6  Code  Lc  nrfx_uarte.o [1]
+nrfx_prs_acquire             0x3d07   0x32  Code  Gb  nrfx_prs.o [1]
+nrfx_timer_compare           0x46ab   0x36  Code  Gb  nrfx_timer.o [1]
+nrfx_timer_enable            0x4693    0xc  Code  Gb  nrfx_timer.o [1]
+nrfx_timer_extended_compare
+                             0x46e1   0x2a  Code  Gb  nrfx_timer.o [1]
+nrfx_timer_init              0x45d9   0xa0  Code  Gb  nrfx_timer.o [1]
+nrfx_uart_0_irq_handler
+                             0x3bb3  0x120  Code  Gb  nrfx_uart.o [1]
+nrfx_uart_init               0x385b  0x122  Code  Gb  nrfx_uart.o [1]
+nrfx_uart_init::irq_handlers
+                             0x3cfc    0x4  Data  Lc  nrfx_uart.o [1]
+nrfx_uart_rx                 0x3a97   0xdc  Code  Gb  nrfx_uart.o [1]
+nrfx_uart_tx                 0x399d   0x98  Code  Gb  nrfx_uart.o [1]
+nrfx_uart_tx_in_progress
+                             0x3a35    0xc  Code  Gb  nrfx_uart.o [1]
+nrfx_uarte_0_irq_handler
+                             0x411f   0xe8  Code  Gb  nrfx_uarte.o [1]
+nrfx_uarte_init              0x3e11  0x134  Code  Gb  nrfx_uarte.o [1]
+nrfx_uarte_init::irq_handlers
+                             0x4238    0x4  Data  Lc  nrfx_uarte.o [1]
+nrfx_uarte_rx                0x3fed   0xf4  Code  Gb  nrfx_uarte.o [1]
+nrfx_uarte_tx                0x3f45   0x8c  Code  Gb  nrfx_uarte.o [1]
+nrfx_uarte_tx_in_progress
+                             0x3fd9    0xc  Code  Gb  nrfx_uarte.o [1]
+obuf                    0x2000'08d4   0x50  Data  Lc  xfiles.o [2]
+printf                       0x2cb9   0x28  Code  Gb  printf.o [2]
+putchar                      0x5455    0xc  Code  Gb  putchar.o [2]
+radio_init                   0x2f49   0x6c  Code  Lc  ble_dtm.o [1]
+radio_prepare                0x3017   0x70  Code  Lc  ble_dtm.o [1]
+radio_reset                  0x2f15   0x34  Code  Lc  ble_dtm.o [1]
+rf_mac                  0x2000'0070    0x8  Data  Lc  lds_rf_test.o [1]
+rf_phy                  0x2000'0079    0x1  Data  Lc  lds_rf_test.o [1]
+rf_txpower_level        0x2000'0078    0x1  Data  Lc  lds_rf_test.o [1]
+rf_uart_cmd             0x2000'099c    0x8  Data  Lc  lds_rf_test.o [1]
+rf_uart_cmd_flag        0x2000'0998    0x1  Data  Lc  lds_rf_test.o [1]
+rf_uart_cmd_len         0x2000'0999    0x1  Data  Lc  lds_rf_test.o [1]
+rx_buffer               0x2000'002d    0x1  Data  Lc  app_uart_fifo.o [1]
+rx_byte                      0x3a61   0x36  Code  Lc  nrfx_uart.o [1]
+rx_done_event                0x3b7d   0x18  Code  Lc  nrfx_uart.o [1]
+rx_done_event                0x40e1   0x18  Code  Lc  nrfx_uarte.o [1]
+rx_enable                    0x3a49   0x18  Code  Lc  nrfx_uart.o [1]
+s_clock_time_1ms        0x2000'087c    0x4  Data  Lc  lds_soft_timer.o [1]
+scalbln                      0x1545         Code  Gb  ldexp.o [3]
+scalblnl                     0x1545         Code  Gb  ldexp.o [3]
+scalbn                       0x1545         Code  Gb  ldexp.o [3]
+scalbnl                      0x1545         Code  Gb  ldexp.o [3]
+scale                        0x121d   0x46  Code  Lc  xprintffull.o [2]
+sec_hand                0x2000'09cc    0x4  Data  Lc  xfail_s.o [2]
+set_strict_mode              0x2fb5   0x42  Code  Gb  ble_dtm.o [1]
+soft_timer_tb           0x2000'080c   0x70  Data  Lc  lds_soft_timer.o [1]
+start_tick              0x2000'0988    0x4  Data  Gb  lds_main.o [1]
+strchr                       0x137d         Code  Gb  strchr.o [4]
+tick                    0x2000'098c    0x4  Data  Gb  lds_main.o [1]
+tick_count_ms           0x2000'0994    0x4  Data  Gb  lds_main.o [1]
+timer4_ms_count         0x2000'09c8    0x4  Data  Gb  lds_timer.o [1]
+tx_buffer               0x2000'002c    0x1  Data  Lc  app_uart_fifo.o [1]
+tx_byte                      0x397d   0x20  Code  Lc  nrfx_uart.o [1]
+tx_done_event                0x3b95   0x1e  Code  Lc  nrfx_uart.o [1]
+tx_done_event                0x40f9   0x1e  Code  Lc  nrfx_uarte.o [1]
+tx_timeout              0x2000'007c    0x4  Data  Lc  lds_rf_test.o [1]
+uart_dev                0x2000'0200    0x4  Data  Lc  lds_uart.o [1]
+uart_event_handler           0x4283   0x98  Code  Lc  app_uart_fifo.o [1]
+uart_evt_handler             0x44ed    0x2  Code  Lc  nrf_drv_uart.o [1]
+uart_rx_buffer          0x2000'0788   0x84  Data  Lc  lds_uart.o [1]
+uart_rx_counter         0x2000'01fc    0x1  Data  Lc  lds_uart.o [1]
+uart_rx_flag            0x2000'01fd    0x1  Data  Lc  lds_uart.o [1]
+uarte_evt_handler            0x44e9    0x4  Code  Lc  nrf_drv_uart.o [1]
+
+
+[1] = C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build
+[2] = dl7M_tlf.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+
+  21'013 bytes of readonly  code memory
+     833 bytes of readonly  data memory
+  18'900 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

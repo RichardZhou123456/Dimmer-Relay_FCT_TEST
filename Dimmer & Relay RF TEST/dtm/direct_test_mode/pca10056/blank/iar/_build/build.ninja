@@ -1,0 +1,68 @@
+#Generating source browse information for project direct_test_mode_pca10056
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build main.pbi : index main.xcl
+build boards.pbi : index boards.xcl
+build lds_bsp.pbi : index lds_bsp.xcl
+build lds_dtm_test.pbi : index lds_dtm_test.xcl
+build lds_main.pbi : index lds_main.xcl
+build lds_rf_test.pbi : index lds_rf_test.xcl
+build lds_soft_timer.pbi : index lds_soft_timer.xcl
+build lds_timer.pbi : index lds_timer.xcl
+build lds_uart.pbi : index lds_uart.xcl
+build system_nrf52840.pbi : index system_nrf52840.xcl
+build ble_dtm.pbi : index ble_dtm.xcl
+build ble_dtm_hw_nrf52.pbi : index ble_dtm_hw_nrf52.xcl
+build nrf_drv_uart.pbi : index nrf_drv_uart.xcl
+build nrfx_atomic.pbi : index nrfx_atomic.xcl
+build nrfx_prs.pbi : index nrfx_prs.xcl
+build nrfx_systick.pbi : index nrfx_systick.xcl
+build nrfx_timer.pbi : index nrfx_timer.xcl
+build nrfx_uart.pbi : index nrfx_uart.xcl
+build nrfx_uarte.pbi : index nrfx_uarte.xcl
+build app_error.pbi : index app_error.xcl
+build app_error_handler_iar.pbi : index app_error_handler_iar.xcl
+build app_error_weak.pbi : index app_error_weak.xcl
+build app_fifo.pbi : index app_fifo.xcl
+build app_uart_fifo.pbi : index app_uart_fifo.xcl
+build app_util_platform.pbi : index app_util_platform.xcl
+build nrf_assert.pbi : index nrf_assert.xcl
+build nrf_atomic.pbi : index nrf_atomic.xcl
+build nrf_balloc.pbi : index nrf_balloc.xcl
+build nrf_fprintf.pbi : index nrf_fprintf.xcl
+build nrf_fprintf_format.pbi : index nrf_fprintf_format.xcl
+build nrf_memobj.pbi : index nrf_memobj.xcl
+build nrf_ringbuf.pbi : index nrf_ringbuf.xcl
+build nrf_strerror.pbi : index nrf_strerror.xcl
+build retarget.pbi : index retarget.xcl
+build nrf_log_frontend.pbi : index nrf_log_frontend.xcl
+build nrf_log_str_formatter.pbi : index nrf_log_str_formatter.xcl
+build direct_test_mode_pca10056_part0.pbi : link main.pbi boards.pbi lds_bsp.pbi lds_dtm_test.pbi lds_main.pbi lds_rf_test.pbi
+build direct_test_mode_pca10056_part1.pbi : link lds_soft_timer.pbi lds_timer.pbi lds_uart.pbi system_nrf52840.pbi ble_dtm.pbi ble_dtm_hw_nrf52.pbi
+build direct_test_mode_pca10056_part2.pbi : link nrf_drv_uart.pbi nrfx_atomic.pbi nrfx_prs.pbi nrfx_systick.pbi nrfx_timer.pbi nrfx_uart.pbi
+build direct_test_mode_pca10056_part3.pbi : link nrfx_uarte.pbi app_error.pbi app_error_handler_iar.pbi app_error_weak.pbi app_fifo.pbi app_uart_fifo.pbi
+build direct_test_mode_pca10056_part4.pbi : link app_util_platform.pbi nrf_assert.pbi nrf_atomic.pbi nrf_balloc.pbi nrf_fprintf.pbi nrf_fprintf_format.pbi
+build direct_test_mode_pca10056_part5.pbi : link nrf_memobj.pbi nrf_ringbuf.pbi nrf_strerror.pbi retarget.pbi nrf_log_frontend.pbi nrf_log_str_formatter.pbi
+build direct_test_mode_pca10056.pbd : link direct_test_mode_pca10056_part0.pbi direct_test_mode_pca10056_part1.pbi direct_test_mode_pca10056_part2.pbi direct_test_mode_pca10056_part3.pbi direct_test_mode_pca10056_part4.pbi direct_test_mode_pca10056_part5.pbi
+build direct_test_mode_pca10056.pbw : browsedata direct_test_mode_pca10056.pbd
+
+

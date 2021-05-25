@@ -1,0 +1,13 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armjlink2.dll" 
+
+"C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\_build\direct_test_mode_pca10056.out" 
+
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armbat.dll" 
+
+--device_macro="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\config\debugger\NordicSemi\nRF52.dmac" 
+
+
+
+

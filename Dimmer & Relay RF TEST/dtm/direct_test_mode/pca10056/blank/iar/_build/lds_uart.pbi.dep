@@ -1,0 +1,76 @@
+lds_uart.pbi: \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\lds_module\lds_uart\lds_uart.c \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\lds_module\lds_includes.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdint.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Defaults.h \
+  C:\\Program\ Files\ (x86)\\IAR\ Systems\\Embedded\ Workbench\ 8.3\\arm\\inc\\c\\DLib_Config_Full.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\string.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product_string.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdio.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdbool.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\mdk\nrf.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\mdk/nrf52840.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\components\toolchain\cmsis\include\core_cm4.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\components\toolchain\cmsis\include/core_cmInstr.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\cmsis_iar.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c/iccarm_builtin.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\components\toolchain\cmsis\include/core_cmFunc.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\components\toolchain\cmsis\include/core_cmSimd.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\mdk/system_nrf52840.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\mdk/system_nrf.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\mdk/nrf52840_bitfields.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\mdk/nrf51_to_nrf52840.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\mdk/nrf52_to_nrf52840.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\mdk/compiler_abstraction.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\components\ble\ble_dtm\ble_dtm.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\components\boards\boards.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\hal\nrf_gpio.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\nrfx.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\integration\nrfx\nrfx_config.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\config\sdk_config.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stddef.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\mdk\nrf_peripherals.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\mdk/nrf52840_peripherals.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\integration\nrfx\nrfx_glue.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\integration\nrfx\legacy/apply_old_config.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\soc/nrfx_irqs.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\soc/nrfx_irqs_nrf52840.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\components\libraries\util\nrf_assert.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\components\libraries\util\app_util.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\mdk\compiler_abstraction.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\components\libraries\util/nordic_common.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\components\libraries\util\nordic_common.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\components\libraries\util\app_util_platform.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\components\libraries\util/nrf_assert.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\components\libraries\util/app_error.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\components\libraries\util/sdk_errors.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\components\libraries\util/app_error_weak.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\soc/nrfx_coredep.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\soc/nrfx_atomic.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\components\libraries\util\sdk_errors.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\components\libraries\util\sdk_resources.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\drivers/nrfx_errors.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\components\boards/pca10056.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\components\libraries\uart\app_uart.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_timer.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_timer.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\hal/nrf_timer.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_systick.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_systick.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\modules\nrfx\hal/nrf_systick.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\lds_module\lds_include\lds_types.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\lds_module\lds_include\lds_config.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\lds_module\lds_include\lds_bsp_config.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\lds_module\lds_board\lds_bsp.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\lds_module\lds_uart\lds_uart.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\lds_module\lds_soft_timer\lds_soft_timer.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\lds_module\lds_rf\lds_dtm_test.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\lds_module\lds_rf\lds_rf_test.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\lds_module/lds_main.h \
+  C:\sdk_16.0.0.2\DeviceDownload\nRF5SDK160098a08e2\examples\dtm\direct_test_mode\pca10056\blank\iar\..\..\..\..\..\..\lds_module\lds_include\lds_log.h
